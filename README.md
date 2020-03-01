@@ -119,7 +119,36 @@ Activity Selection Problem
 Coin Change Problem
 Fractional Knapsack -->
 - Divide & Conquer
+<!-- What & why of Divide & Conquer Algorithm
+Problems & Solutions:
+FIbonacci Series
+Numbers Factors
+House Thief
+Edit Distance
+Zero/One Knapsack
+Longest Common Subsequence 
+Longest Palindromic Subsequence
+Longest Palindromic Substring
+Min Cost to reach last cell
+Num Paths to last call -->
 - Dynamic programming 
+<!-- WHat & Why of Dynamis Programming ? 
+When to use Dynamic Programming ?
+Approaches of Dynamic Programming (Top Down, Bottom Up)
+Top Down vs Bottom Up
+Reverse Engineering of Topdown to arrive at BottomUp
+Problems & Solutions 
+Fibonacci Series
+Number Factor
+House Thief
+Edit Distance
+Zero/One Knapsack
+Longest Common Subsequence 
+Longest Palindromic Subsequence
+Longest Palindromic Substring
+Min Cost to reach last cell
+Num Paths to last call -->
+
 
 
 
