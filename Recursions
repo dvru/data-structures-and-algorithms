@@ -12,7 +12,6 @@
 -- It is heavily used in techniques like "Divide and Conquer", "Greedy", "Dynamic Programming".
 
 
-
 - Examples of Recursion:
 search(root, valueToSearch)
     if (root equals null) return null
@@ -21,7 +20,45 @@ search(root, valueToSearch)
     else search (root.right, valueToSearch)
 
 
-- How Recursion works internally 
+- How Recursion works internally:
+WITH IMAGE: RECURSIONS-STACK
+Main ()
+    Bar()
+    System.out.printIn(" I am in Main")
+
+Bar()
+    DoWork()
+    System.out.printIn("I am in Bar")
+
+DoWork(){
+    DoMore()
+    System.out.printIn("I am in DoWork")
+
+DoMore(){
+    System.out.printIn("I am in DoMore"`)
+}
+
+WITH IMAGE: RECURSIONS-FOO
+foo(n){
+    If(n<1)
+        return
+    else
+        foo(n-1)
+    print "Hello World" + need
+}
+
+Main(){
+    foo(3)
+}
+
+
+- Recursion vs Iteration
+
+
+- When to use/Avoid Recursion
+
+
+- Practical use of Recursion
 It has two elements:
 -- Recursive Case: Case where the function recur
 -- Base Case: Case where the function does not recur 
@@ -34,12 +71,3 @@ Example:
         else 
             SampleRecursion(modified parameter)
     }
-
-
-- Recursion vs Iteration
-
-
-- When to use/Avoid Recursion
-
-
-- Practical use of Recursion
