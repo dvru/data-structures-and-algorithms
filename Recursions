@@ -25,6 +25,15 @@ search(root, valueToSearch)
 It has two elements:
 -- Recursive Case: Case where the function recur
 -- Base Case: Case where the function does not recur 
+--- Base case is needed to stop the method, and cause an infinite loop.
+
+Example: 
+    SampleRecursion (parameter){
+        if (base case is satisfied)
+            return some base case value
+        else 
+            SampleRecursion(modified parameter)
+    }
 
 
 - Recursion vs Iteration
