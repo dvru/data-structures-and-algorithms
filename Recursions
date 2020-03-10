@@ -4,6 +4,18 @@
 -- We mandatorily need to have a base condition, which tells system when to stop the recursion 
 -- To avoid infinite loop, always have a base condition.
 
+It has two elements:
+-- Recursive Case: Case where the function recur
+-- Base Case: Case where the function does not recur 
+--- Base case is needed to stop the method, and cause an infinite loop.
+
+Example: 
+    SampleRecursion (parameter){
+        if (base case is satisfied)
+            return some base case value
+        else 
+            SampleRecursion(modified parameter)
+    }
 
 - Why Should we learn Recursion?
 -- Because it makes the code easy to read and write (compared to "iterative", meaning using a loop) 
@@ -52,6 +64,37 @@ Main(){
 }
 
 
+Solving Mathematical Problems Using Recursive methods:
+Factorial:
+-- Factorial of a non-negative integar n
+-- Denoted by n!
+-- Is the product of all positive integers from 1 to n 
+Example:
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 36,28,800
+
+WITH IMAGE: RECURSIONS-FACTORIAL
+Factorial(n):
+    If n equals 0
+        return 1 
+    return (n * factorial(n-1))
+
+
+Fibonni Series:
+-- A series of numbers in which each number is the sum of the two preceding numbers
+-- First 2 number by defition are 0 and 1
+Example: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
+
+fib(n)
+    if n is less than 1
+        return error message
+    else if n is equal to 1 or 2
+        return n-1
+    else 
+        return fib(n-1) + fib(n-2):
+
+
 - Recursion vs Iteration
 
 
@@ -59,15 +102,4 @@ Main(){
 
 
 - Practical use of Recursion
-It has two elements:
--- Recursive Case: Case where the function recur
--- Base Case: Case where the function does not recur 
---- Base case is needed to stop the method, and cause an infinite loop.
 
-Example: 
-    SampleRecursion (parameter){
-        if (base case is satisfied)
-            return some base case value
-        else 
-            SampleRecursion(modified parameter)
-    }
