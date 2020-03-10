@@ -1,13 +1,36 @@
-- What is Recursion
+- What is Recursion:
+-- Same Operation is performed multiple times with different inputs
+-- In every step we try to make the problem Smaller
+-- We mandatorily need to have a base condition, which tells system when to stop the recursion 
+-- To avoid infinite loop, always have a base condition.
 
-- Why Should we learn Recursion
 
-- Examples of Recursion
+- Why Should we learn Recursion?
+-- Because it makes the code easy to read and write (compared to "iterative", meaning using a loop) 
+    whenever a given problem can be broken down into similiar sub-problem
+-- Because it is heavily used in Data Structures like Tree, Graphs, etc
+-- It is heavily used in techniques like "Divide and Conquer", "Greedy", "Dynamic Programming".
+
+
+
+- Examples of Recursion:
+search(root, valueToSearch)
+    if (root equals null) return null
+    else if (root.value equals valueToSearch) return root
+    else if (valueToSearch < root.value) search(root.left, valueToSearch)
+    else search (root.right, valueToSearch)
+
 
 - How Recursion works internally 
+It has two elements:
+-- Recursive Case: Case where the function recur
+-- Base Case: Case where the function does not recur 
+
 
 - Recursion vs Iteration
 
+
 - When to use/Avoid Recursion
+
 
 - Practical use of Recursion
