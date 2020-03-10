@@ -2,7 +2,6 @@
 
 - Data Structures & Algorithms 
 
-
 Basics
 - Instructions
 <!-- What is Data Structure?
