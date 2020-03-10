@@ -81,7 +81,8 @@ Factorial(n):
     return (n * factorial(n-1))
 
 
-Fibonni Series:
+WITH IMAGE: RECURSIONS-FIBONACCI
+Fibonacci Series:
 -- A series of numbers in which each number is the sum of the two preceding numbers
 -- First 2 number by defition are 0 and 1
 Example: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
@@ -92,14 +93,25 @@ fib(n)
     else if n is equal to 1 or 2
         return n-1
     else 
-        return fib(n-1) + fib(n-2):
+        return fib(n-1) + fib(n-2)
 
-
+WITH IMAGE: RECURSIONS-ITERATION
 - Recursion vs Iteration
 
 
-- When to use/Avoid Recursion
+- When to Use/Avoid Recursion
+Used:
+-- When we can easily breakdown a problem into similiar subproblem
+-- When we are ok with extra overhead (both time and space) that comes with it
+-- When we need a quick working solution instead of efficent one. 
+Avoid: 
+-- If the response to any of the adove statements is NO, we should not go with recursion 
 
 
 - Practical use of Recursion
+-- Stack 
+-- Tree - Traversal/Searching/Insertion/Deletion
+-- Sorting - Quick Sort, Merge Sort
+-- Divide and Conquer
+-- Dynamic Programming: breakdown problem in smaller problems to be reused 
 
