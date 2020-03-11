@@ -9,7 +9,9 @@ Why?
 - Types of Time Complexity 
 
 - What are Notations
---
+--There are 3 Notations for Run Time Analysis:
+    Omega:
+    This Notation gives the tighter lower bound of a given algorithm
 
 - How to Calculate Time Complexity
 
