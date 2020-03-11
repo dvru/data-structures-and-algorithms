@@ -1,0 +1,17 @@
+- What & why of Algorithm Run Time Analysis 
+What?
+-- It is the study of any given Algorithm's running time, by identifying its behavior as the inpur size for the Algorithm increases. 
+    In layman's language we can say "how much time will the given algorithms will take to run"
+Why?
+-- To measure efficiency of a given algorithm
+-- If we dont learn this topic, our program will look runned down.
+
+- Types of Time Complexity 
+
+- What are Notations
+--
+
+- How to Calculate Time Complexity
+
+
+
