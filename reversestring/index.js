@@ -14,7 +14,21 @@ function reverse(str) {
    }
    
    module.exports = reverse;
+ 
    
+// ES6, knowlegdge ES2015
+    //    function reverse(str) {
+    //     return str.split('').reduce((reversed, character) => {
+    //        return character + reversed;    
+    //     }, '');
+    // }
+
+    
+    // function reverse(str) {
+    //     return str.split('').reduce((rev, char) => char + rev, '');
+    // }
+    
+
 
 // Create an empty string called 'reversed'
 // for each character in the provided string
