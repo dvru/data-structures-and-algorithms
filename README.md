@@ -129,6 +129,7 @@ Longest Palindromic Subsequence
 Longest Palindromic Substring
 Min Cost to reach last cell
 Num Paths to last call -->
+
 - Dynamic programming 
 <!-- WHat & Why of Dynamis Programming ? 
 When to use Dynamic Programming ?
