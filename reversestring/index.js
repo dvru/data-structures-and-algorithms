@@ -47,7 +47,6 @@ function reverse(str) {
 
 
 
-
 // Turn "str" into an array
 // Call "reverse" method on the array
 // Join the array back ito a string
