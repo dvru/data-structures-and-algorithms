@@ -1,5 +1,7 @@
 Daminis-MBP:reversestring daminivaru$ node inspect index.js
 
+
+
 < Debugger listening on ws://127.0.0.1:9229/91829dca-0b3e-485b-8fff-54145b8c0c0c
 < For help, see: https://nodejs.org/en/docs/inspector
 < Debugger attached.
@@ -10,6 +12,9 @@ Break on start in index.js:14
  15 
  16 module.exports = reverse;
 
+
+
+
 debug> c
 break in index.js:10
   8 
@@ -18,6 +23,8 @@ break in index.js:10
  11     return str.split('').reduce((rev, char) => char + rev, '');
  12 }
  
+
+
 debug> repl
 Press Ctrl + C to leave debug repl
 > str
