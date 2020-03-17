@@ -25,7 +25,7 @@ function chunk(array, size) {
 
 module.exports = chunk;
 
-
+// Solution 1
 // Create empty array to hold chunks called 'chunked'
 
 // For each element in the *unchunked* array
@@ -37,9 +37,17 @@ module.exports = chunk;
 // Else add the current element into the chunk
 
 
+// function chunk(array, size) {
+//     const chunked = [];
 
-// ✓ function chunk exists 
-// ✓ chunk divides an array of 10 elements with chunk size 2
-// ✓ chunk divides an array of 3 elements with chunk size 1 
-// ✓ chunk divides an array of 5 elements with chunk size 3 
-// ✓ chunk divides an array of 13 elements with chunk size 5
+//     for (let element of array) {
+//         const last = chunked[chunked.length - 1];
+
+//         if (!last || last.length === size) {
+//             chunked.push([element]);
+//         } else {
+//             last.push(element);
+//         }
+//     }
+//     return chunked;
+// }
