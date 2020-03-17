@@ -8,3 +8,8 @@
 function maxChar(str) {}
 
 module.exports = maxChar;
+
+// Common String Questions:
+// What is the most common char in the string?
+// Does A string have the same char as string B (is it an anagram)?
+// Does the given strnig have any repeated char in it?
