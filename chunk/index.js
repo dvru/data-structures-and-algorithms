@@ -25,6 +25,8 @@ function chunk(array, size) {
 
 module.exports = chunk;
 
+
+
 // Solution 1
 // Create empty array to hold chunks called 'chunked'
 
