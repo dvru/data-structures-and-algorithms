@@ -35,6 +35,7 @@ module.exports = chunk;
 // Push a new chunk into 'chunked' with the current element
 
 // Else add the current element into the chunk
+// return chunked
 
 
 // function chunk(array, size) {
@@ -49,5 +50,28 @@ module.exports = chunk;
 //             last.push(element);
 //         }
 //     }
+//     return chunked;
+// }
+
+
+
+// Solution 2
+// Create empty 'chunked' array
+// Create 'index' start at 0
+
+// While index is less than array.length
+// Push a slice of lenght 'size' from 'array' into 'chunked'
+// return chunked
+
+
+// function chunk(array, size) {
+//     const chunked = [];
+//     let index = 0;
+
+//     while (index < array.length) {
+//         chunked.push(array.slice(index, index + size));
+//         index += size;
+//     }
+
 //     return chunked;
 // }
