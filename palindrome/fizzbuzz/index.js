@@ -12,6 +12,18 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+    for (let i = 1; i <= n; i++) {
+        // is the number a multiple of 3 and 5?
+        if ( i % 3 === 0 && i % 5 === 0) {
+            console.log('fizzbuzz');
+
+        }
+    }
+}
 
 module.exports = fizzBuzz;
+
+
+// make sure you and iterate 1 to n
+// set a loop inside to interate 1 to n
