@@ -49,8 +49,6 @@ module.exports = maxChar;
 
 // declare 2 helper variables at the top of function
 
-
-
 // function maxChar(str) { 
 //     const charMap = {};
 
@@ -63,3 +61,5 @@ module.exports = maxChar;
 //     }
 //     console.log(charMap)
 // }
+
+
