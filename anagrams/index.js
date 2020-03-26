@@ -10,16 +10,41 @@
 
 
 function anagrams(stringA, stringB) {
-
+    return cleanString(stringA) === cleanString(stringB);
 }
 
 
+function cleanString(str) {
+    return str.replace(/[^\w]/g, '')
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join('');
+}
+
+
+module.exports = anagrams;
+
+
+////////////////////////////////// Easier Solution 2 
+
+
+// function anagrams(stringA, stringB) {
+//     return cleanString(stringA) === cleanString(stringB);
+// }
+
+
+// function cleanString(str) {
+//     return str.replace(/[^\w]/g, '')
+//     .toLowerCase()
+//     .split('')
+//     .sort()
+//     .join('');
+// }
 
 
 
-
-
-// Solution 1
+////////////////////////////////// Solution 1
 
 // function anagrams(stringA, stringB) {
 //     const aCharMap = buildCharMap(stringA);  // produce char map for str a & b
@@ -50,4 +75,4 @@ function anagrams(stringA, stringB) {
 // }
 
 
-module.exports = anagrams;
+
