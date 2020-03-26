@@ -22,9 +22,7 @@ module.exports = capitalize;
 
 
 
-
-
-
+/////// EASIER SOLUTION 1
 
 // Make and Empty array 'Words;
 // Split the input string by spaces to get an array
@@ -35,8 +33,6 @@ module.exports = capitalize;
 // Join 'words' into a string and return it
 
 
-/////// EASIER SOLUTION 1
-
 // function capitalize(str) {
 //     const words = [];
 
@@ -45,6 +41,9 @@ module.exports = capitalize;
 //     }
 //     return words.join(' ');
 // }
+
+
+
 
 
 ////////////////// SOLUTION 2, USING A MANUAL FOR LOOP
