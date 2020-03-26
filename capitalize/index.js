@@ -27,6 +27,9 @@ module.exports = capitalize;
 // Push result into 'words' array
 // Join 'words' into a string and return it
 
+
+/////// EASIER SOLUTION 1
+
 // function capitalize(str) {
 //     const words = [];
 
