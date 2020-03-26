@@ -9,7 +9,12 @@
 //   capitalize('look, it is working!') --> 'Look, It Is Working!'
 
 function capitalize(str) {
+    const words = [];
 
+    for (let word of str.split(' ')) {
+       words.push(word[0].toUpperCase() + word.slice(1));
+    }
+    return words.join(' ');
 }
 
 module.exports = capitalize;
@@ -21,3 +26,12 @@ module.exports = capitalize;
 // Join first letter with rest of the string
 // Push result into 'words' array
 // Join 'words' into a string and return it
+
+// function capitalize(str) {
+//     const words = [];
+
+//     for (let word of str.split(' ')) {
+//        words.push(word[0].toUpperCase() + word.slice(1));
+//     }
+//     return words.join(' ');
+// }
