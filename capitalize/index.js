@@ -14,3 +14,10 @@ function capitalize(str) {
 
 module.exports = capitalize;
 
+// Make and Empty array 'Words;
+// Split the input string by spaces to get an array
+// For each word in the array
+// Uppercase the first letter of the word
+// Join first letter with rest of the string
+// Push result into 'words' array
+// Join 'words' into a string and return it
