@@ -1,22 +1,34 @@
-// --- Directions
-// Write a function that accepts a positive number N.
-// The function should console log a step shape
-// with N levels using the # character.  Make sure the
-// step has spaces on the right hand side!
-// --- Examples
-//   steps(2)
-//       '# '
-//       '##'
-//   steps(3)
-//       '#  '
-//       '## '
-//       '###'
-//   steps(4)
-//       '#   '
-//       '##  '
-//       '### '
-//       '####'
+const steps = require('./index');
 
-function steps(n) {}
+beforeEach(() => {
+  jest.spyOn(console, 'log');
+});
 
-module.exports = steps;
+afterEach(() => {
+  console.log.mockRestore();
+});
+
+test('steps is a function', () => {
+  expect(typeof steps).toEqual('function');
+});
+
+test('steps called with n = 1', () => {
+  steps(1);
+  expect(console.log.mock.calls[0][0]).toEqual('#');
+  expect(console.log.mock.calls.length).toEqual(1);
+});
+
+test('steps called with n = 2', () => {
+  steps(2);
+  expect(console.log.mock.calls[0][0]).toEqual('# ');
+  expect(console.log.mock.calls[1][0]).toEqual('##');
+  expect(console.log.mock.calls.length).toEqual(2);
+});
+
+test('steps called with n = 3', () => {
+  steps(3);
+  expect(console.log.mock.calls[0][0]).toEqual('#  ');
+  expect(console.log.mock.calls[1][0]).toEqual('## ');
+  expect(console.log.mock.calls[2][0]).toEqual('###');
+  expect(console.log.mock.calls.length).toEqual(3);
+});
