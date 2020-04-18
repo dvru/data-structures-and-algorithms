@@ -1,0 +1,50 @@
+- What is Data Structure ?
+
+is a way to organize data in a way that enables it to be processed in an efficient time
+
+- What is Algorithm ?
+
+is a set of rules to be followed to solve a problem 
+
+- Examples of Data Structure in day to day life
+
+Queue: Fans assembled for AutoGraph, rather them oragnized in a line
+Tree: Parent-Child Relationship
+Graph: Shortest Route from one city to another
+
+- Data Structure vs Algorithms 
+
+- Why Companies ask Data Structure & Algorithm in Interview
+
+They Check Problem Solving Skills
+They Check Coding/Testing Skills 
+
+- Which Companies ask Data structure in Interview
+
+Product Based Company - Approx 80% of their Interview will be focused on Data Structure: Microsoft, Google, Facebook
+Service Based Company - They dont Emphasize much on Data Structure(they want quick solutions, instead of efficient solutions):
+Tata Consulting Services, Accenture, Cognizant
+
+- Types of Data Structure
+Primitive DS:
+Integer
+Float
+Character
+Boolean
+
+Non-Primitive DS:
+Phycial DS:
+Array 
+LinkedList
+
+Logical DS:
+Stack
+Queue
+Tree
+Graph
+
+- What are Linear data Structure ?
+Array, LinkedList, Stack, Queue, any type of list.
+
+- What are non Linear data Structure ?
+Trees, binary tree or B tree

@@ -1,0 +1,118 @@
+- What is Recursion:
+-- Same Operation is performed multiple times with different inputs
+-- In every step we try to make the problem Smaller
+-- We mandatorily need to have a base condition, which tells system when to stop the recursion 
+-- To avoid infinite loop, always have a base condition.
+
+It has two elements:
+-- Recursive Case: Case where the function recur
+-- Base Case: Case where the function does not recur 
+--- Base case is needed to stop the method, and cause an infinite loop.
+
+Example: 
+    SampleRecursion (parameter){
+        if (base case is satisfied)
+            return some base case value
+        else 
+            SampleRecursion(modified parameter)
+    }
+
+
+- Why Should we learn Recursion?
+-- Because it makes the code easy to read and write (compared to "iterative", meaning using a loop) 
+    whenever a given problem can be broken down into similiar sub-problem
+-- Because it is heavily used in Data Structures like Tree, Graphs, etc
+-- It is heavily used in techniques like "Divide and Conquer", "Greedy", "Dynamic Programming".
+
+
+- Examples of Recursion:
+search(root, valueToSearch)
+    if (root equals null) return null
+    else if (root.value equals valueToSearch) return root
+    else if (valueToSearch < root.value) search(root.left, valueToSearch)
+    else search (root.right, valueToSearch)
+
+
+- How Recursion works internally:
+WITH IMAGE: RECURSIONS-STACK
+Main ()
+    Bar()
+    System.out.printIn(" I am in Main")
+
+Bar()
+    DoWork()
+    System.out.printIn("I am in Bar")
+
+DoWork(){
+    DoMore()
+    System.out.printIn("I am in DoWork")
+
+DoMore(){
+    System.out.printIn("I am in DoMore"`)
+}
+
+WITH IMAGE: RECURSIONS-FOO
+foo(n){
+    If(n<1)
+        return
+    else
+        foo(n-1)
+    print "Hello World" + need
+}
+
+Main(){
+    foo(3)
+}
+
+
+Solving Mathematical Problems Using Recursive methods:
+Factorial:
+-- Factorial of a non-negative integar n
+-- Denoted by n!
+-- Is the product of all positive integers from 1 to n 
+Example:
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+10! = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 = 36,28,800
+
+WITH IMAGE: RECURSIONS-FACTORIAL
+Factorial(n):
+    If n equals 0
+        return 1 
+    return (n * factorial(n-1))
+
+
+WITH IMAGE: RECURSIONS-FIBONACCI
+Fibonacci Series:
+-- A series of numbers in which each number is the sum of the two preceding numbers
+-- First 2 number by defition are 0 and 1
+Example: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ....
+
+fib(n)
+    if n is less than 1
+        return error message
+    else if n is equal to 1 or 2
+        return n-1
+    else 
+        return fib(n-1) + fib(n-2)
+
+WITH IMAGE: RECURSIONS-ITERATION
+- Recursion vs Iteration
+
+
+- When to Use/Avoid Recursion
+Used:
+-- When we can easily breakdown a problem into similiar subproblem
+-- When we are ok with extra overhead (both time and space) that comes with it
+-- When we need a quick working solution instead of efficent one. 
+Avoid: 
+-- If the response to any of the adove statements is NO, we should not go with recursion 
+
+
+- Practical use of Recursion
+-- Stack 
+-- Tree - Traversal/Searching/Insertion/Deletion
+-- Sorting - Quick Sort, Merge Sort
+-- Divide and Conquer
+-- Dynamic Programming: breakdown problem in smaller problems to be reused 
+
