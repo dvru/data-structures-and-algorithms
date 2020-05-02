@@ -11,4 +11,5 @@ function compressBoxesTwice(boxes, boxes2) {
 }
 
 // 0(2n)
-0(n)
+0(a + b) //one after an other
+0(a*b) //nested
