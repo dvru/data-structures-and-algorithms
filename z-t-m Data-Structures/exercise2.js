@@ -16,5 +16,6 @@ function anotherFunChallenge(input) {
   }
 
 // 0(n)
-
 // 0(1)
+
+// BIG 0(4 + 7n)
