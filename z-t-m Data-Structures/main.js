@@ -1,8 +1,7 @@
 // 0(n)
 
-
 const nemo = ['nemo'];
-const everyone = ['dory', 'bruce', 'marlin', 'nemo', 'gill', 'bloat', 'nigel', 'squirt', 'darla', 'hank'];
+const everyone = ['dory', 'bruce', 'marlin', 'gill', 'bloat', 'nigel', 'squirt', 'darla', 'hank', 'nemo'];
 const large = new Array(10).fill('nemo');
 
 function findNemo(array) {
@@ -16,9 +15,6 @@ function findNemo(array) {
 }
 
 findNemo(everyone)
-
-
-
 
 
 
