@@ -3,11 +3,11 @@ function funChallenge(input) {
     a = 50 + 3; // 0(1) , reassigning a
   
     for (let i = 0; i < input.length; i++) { // 0(n)
-      anotherFunction();
-      let stranger = true;
-      a++;
+      anotherFunction(); // 0(n)
+      let stranger = true; // 0(n)
+      a++; // a +1, // 0(n)
     }
-    return a;
+    return a; // 0(1)
   }
 
-  funChallenge();
+// BIG 0 notation (3 + 4n)
