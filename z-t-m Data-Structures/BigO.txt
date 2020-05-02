@@ -3,5 +3,8 @@ Big O notation
 - Is the language we use for taking how long an algorithms takes to run
 - we can compare two different algorithms/functions
 - using big O, comarin each to scale
-
 - When we grow bigger with our input, how much does it slow down
+
+
+0(n) --> Linear time
+    common BigO notation. 
