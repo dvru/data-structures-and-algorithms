@@ -1,3 +1,5 @@
+// 0(n)
+
 const {performance} = require('perf_hooks');
 
 const nemo = ['nemo'];
