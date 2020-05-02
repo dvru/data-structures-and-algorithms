@@ -11,3 +11,4 @@ function funChallenge(input) {
   }
 
 // BIG 0 notation (3 + 4n)
+// BIG 0(n)

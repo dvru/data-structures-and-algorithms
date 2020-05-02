@@ -15,7 +15,5 @@ function anotherFunChallenge(input) {
     let whoAmI = "I don't know"; // 0(1)
   }
 
-// 0(n)
-// 0(1)
-
 // BIG 0(4 + 7n)
+// BIG 0(n)
