@@ -13,7 +13,7 @@
 // nested for loops --> 0(n^2)
 //brute force approach: large amounts instead of more efficient
 const array1 = ['a', 'b', 'c', 'x'];
-const array2 = ['z', 'y', 'h'];
+const array2 = ['z', 'y', 'x'];
 
 function containsCommonItem(arr1, arr2) {
     for (let i=0; i < arr1.length; i++) {
