@@ -12,23 +12,24 @@
 // return true or fale
 // nested for loops --> 0(n^2)
 //brute force approach: large amounts instead of more efficient
-const array1 = ['a', 'b', 'c', 'x'];
-const array2 = ['z', 'y', 'x'];
+// const array1 = ['a', 'b', 'c', 'x'];
+// const array2 = ['z', 'y', 'x'];
 
-function containsCommonItem(arr1, arr2) {
-    for (let i=0; i < arr1.length; i++) {
-      for ( let j=0; j < arr2.length; j++) {
-        if(arr1[i] === arr2[j]) {
-          return console.log(true);
-        }
-      }
-    }
-    return console.log(false)
-  }
+// function containsCommonItem(arr1, arr2) {
+//     for (let i=0; i < arr1.length; i++) {
+//       for ( let j=0; j < arr2.length; j++) {
+//         if(arr1[i] === arr2[j]) {
+//           return console.log(true);
+//         }
+//       }
+//     }
+//     return console.log(false)
+//   }
 
-  containsCommonItem(array1, array2)
+//   containsCommonItem(array1, array2)
 //O(a*b)
 //O(1) - Space Complexity
+
 
 
 const array1 = ['a', 'b', 'c', 'x'];
@@ -48,11 +49,13 @@ function containsCommonItem2(arr1, arr2) {
   // loop through second array and check if item in second array exists on created object. 
   for (let j=0; j < arr2.length; j++) {
     if (map[arr2[j]]) {
-      return true;
+      return console.log(true);
     }
   }
-  return false
+  return console.log(false)
 }
 
 //O(a + b) Time Complexity
 //O(a) Space Complexity
+
+containsCommonItem2(array1, array2)
