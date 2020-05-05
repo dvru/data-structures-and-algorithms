@@ -1,0 +1,15 @@
+Data Structutes
+    - Array
+    - Stacks
+    - Queues
+    - Linked Lists
+    - Trees
+    - Tries
+    - Graphs
+    - Hash Tables
+
+Algorithsm
+    - Sorting
+    - Dynamic Programming
+    - BFS + DFS (Searching)
+    - Recursion
