@@ -6,6 +6,11 @@ Programs
 
 Medium:
 https://medium.com/@albertgao/everything-you-need-to-know-about-big-o-notation-5436d2702199
-
 bigO cheat sheet:
 https://www.bigocheatsheet.com/
+
+
+Which Code is best?
+- Readable
+- Spead --> Time complexity 
+- Memory --> Memory usage of Code --> Space Complexity
