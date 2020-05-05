@@ -1,9 +1,7 @@
 Data Structures: ways to store data
-
 +
-
 Algorithms: functions/ ways to use data structures for Programs
- 
 = 
-
 Programs
+
+
