@@ -7,3 +7,23 @@
 //const array1 = ['a', 'b', 'c', 'x'];//const array2 = ['z', 'y', 'x'];
 //should return true.
 
+
+// 2 parameter --> arrays - no size limit
+// return true or fale
+// nested for loops --> 0(n^2)
+//brute force approach: large amounts instead of more efficient
+const array1 = ['a', 'b', 'c', 'x'];
+const array2 = ['z', 'y', 'h'];
+
+function containsCommonItem(arr1, arr2) {
+    for (let i=0; i < arr1.length; i++) {
+      for ( let j=0; j < arr2.length; j++) {
+        if(arr1[i] === arr2[j]) {
+          return console.log(true);
+        }
+      }
+    }
+    return console.log(false)
+  }
+
+  containsCommonItem(array1, array2)
