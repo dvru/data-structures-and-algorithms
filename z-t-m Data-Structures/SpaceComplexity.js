@@ -15,5 +15,4 @@ function arrayOfHiNTimes(n) {
     }
     return hiArray;
 }
-
 arrayOfHiNTimes(6)
