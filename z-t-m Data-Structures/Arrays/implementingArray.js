@@ -21,7 +21,7 @@ class MyArray {
         return lastItem;
     }
 
-    deleteAtIndex(index) {
+    delete(index) {
         const item = this.data[index];
         this.shiftItems(index);
         return item;
@@ -31,7 +31,8 @@ class MyArray {
         {
             this.data[i] = this.data[i+1]
         }
-        console.log(this.data[this.length - 1]);
+        delete this.data[this.length - 1];
+        this.length--;
     }
 }
 
@@ -39,6 +40,8 @@ const newArray = new MyArray();
 newArray.push('hi');    // MyArray { length: 1, data: { '0': 'hi' } }
 newArray.push('you');   // MyArray { length: 2, data: { '0': 'hi', '1': 'you' } }
 newArray.push('!');
-newArray.pop();
-newArray.pop();
-console.log(newArray);
+newArray.delete(0)
+newArray.push('are');
+newArray.push('nice');
+newArray.delete(1)
+console.log(newArray)
