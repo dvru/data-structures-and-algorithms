@@ -23,7 +23,7 @@ strings.unshift('x')            // 0(n)
 // [ 'x', 'a', 'b', 'c' ]
 
 //splice
-strings.splice(2, 0, 'alien');
+strings.splice(2, 0, 'alien');  // 0(n)
 // [ 'x', 'a', 'alien', 'b', 'c' ]
 
 console.log(strings)
