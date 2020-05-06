@@ -1,8 +1,8 @@
 const strings = ['a', 'b', 'c', 'd']; 
 // simple array in JavaScript
 //  4 items * 4 shelves = 16 bytes of storages 
-
 // Variable array is somewhere in memory and the computer knows it.
+
 console.log(strings[2]) // grab third item in array
 // When I do array[2], i'm telling the computer, 
 // hey go to the array and grab the 3rd item from where the array is stored.
