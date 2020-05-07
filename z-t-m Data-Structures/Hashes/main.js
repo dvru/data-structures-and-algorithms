@@ -10,3 +10,9 @@ let user = { // user object
 console.log(user.age) // 0(1)
 console.log(user.spell = 'abra kadabra') // 0(1)
 console.log(user.scream()) // 0(1)
+
+
+//Map --> Gives you some order
+const a = new Map()
+//Set --> No duplicate keys
+const b = new Set()
