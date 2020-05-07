@@ -28,15 +28,14 @@ function firstRecurringCharacter2(input) {
          } else {
              map[input[i]] = i
          }
-         console.log(map)
      }
      return undefined
-}
+}  // 0(n)
 
 
 
 
-console.log(firstRecurringCharacter2([2,5,1,2,3,5,1,2,4]))
+console.log(firstRecurringCharacter2([2,5,5,2,3,5,1,2,4]))
 // console.log(firstRecurringCharacter([1,2]))
 
 
