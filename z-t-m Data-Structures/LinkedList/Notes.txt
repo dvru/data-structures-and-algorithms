@@ -1,0 +1,12 @@
+What is a Linkedlist?
+
+- A list that is Linked.
+
+A list contains a set of nodes
+
+Nodes have 2 elements:
+    value & pointer to the nxt node
+        first node is Head, last node is Tail
+
+LinkedList are null terminated:
+signifies the end of the list, such as the tail when pointed to null
