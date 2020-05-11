@@ -1,6 +1,6 @@
 const basket = ['apples', 'grapes', 'pears']
 
-linked list: apples --> grapes --> pears
+const list = [apples --> grapes --> pears]
 
 apples
 8947 --> grapes
