@@ -56,7 +56,18 @@ class LinkedList {
         console.log('yes')
         return this.append(value);
       }
-
+      const newNode = new Node(value)
+      const leader = this.traverseToIndex(index-1);
+      }
+      traverseToIndex(index) {
+        //Check parameters
+        let counter = 0;
+        let currentNode = this.head;
+        while(counter !== index){
+          currentNode = currentNode.next;
+          counter++;
+        }
+        return currentNode;
       }
 }
 
@@ -65,7 +76,7 @@ const myLinkedList = new LinkedList(10);
 myLinkedList.append(5)
 myLinkedList.append(16)
 myLinkedList.prepend(1)
-myLinkedList.insert(200, 99)
+myLinkedList.insert(2, 99)
 console.log(myLinkedList.printList())
 // console.log(myLinkedList)
 
