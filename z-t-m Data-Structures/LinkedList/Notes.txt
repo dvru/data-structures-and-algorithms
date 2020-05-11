@@ -1,5 +1,8 @@
 What is a Linkedlist?
 
+LinkedList animation:
+https://visualgo.net/en/list
+
 - A list that is Linked.
 
 A list contains a set of nodes
