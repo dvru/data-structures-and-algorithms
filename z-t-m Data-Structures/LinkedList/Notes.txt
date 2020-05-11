@@ -12,3 +12,9 @@ LinkedList are null terminated:
 signifies the end of the list, such as the tail when pointed to null
 
 Java has LinkedList.
+
+Linked List is a data structure consisting of a group of vertices (nodes) which together represent a sequence. 
+Under the simplest form, each vertex is composed of a data and a reference (link) to the next vertex in the sequence
+
+Linked List and its variations are used as underlying data structure to implement List, Stack, Queue, and Deque ADTs 
+(read this Wikipedia article about ADT if you are not familiar with that term).
