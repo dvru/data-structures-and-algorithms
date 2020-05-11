@@ -10,3 +10,5 @@ Nodes have 2 elements:
 
 LinkedList are null terminated:
 signifies the end of the list, such as the tail when pointed to null
+
+Java has LinkedList.
