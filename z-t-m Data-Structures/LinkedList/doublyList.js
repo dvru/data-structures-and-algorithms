@@ -75,10 +75,13 @@ class DoublyLinkedList {
         prev: null
      }
         const leader = this.traverseToIndex(index-1);
-        const holdingPointer = leader.next;
+        const follower = leader.next;
         leader.next = newNode;
-        newNode.next = holdingPointer;
+        newNode.prev = leader;
+        newNode.next = follower;
+        follower.prev = newNode
         this.length++;
+        console.log(this)
         return this.printList();
       }
       traverseToIndex(index) {
@@ -106,11 +109,11 @@ const myLinkedList = new DoublyLinkedList(10);
 myLinkedList.append(5)
 myLinkedList.append(16)
 myLinkedList.prepend(1)
-// myLinkedList.insert(2, 99)
+myLinkedList.insert(1, 99)
 // myLinkedList.insert(20, 88)
 // myLinkedList.remove(2)
 // // myLinkedList.remove(2)
 console.log(myLinkedList.printList())
-console.log(myLinkedList)
+// console.log(myLinkedList)
 
   
