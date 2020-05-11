@@ -33,16 +33,23 @@ class LinkedList {
     this.length++;
     return this; // this linkedlist
     }
-    prepend(value) {
-        //Code here
+    prepend(value) { // 1-->10-->5-->16
+        const newNode = {
+            value: value,
+            next: null
+        };
+        newNode.next = this.head;
+        this.head = newNode;
+        this.length++;
+        return this;
       }
 }
 
 const myLinkedList = new LinkedList(10);
 
-console.log(myLinkedList.append(5))
-console.log(myLinkedList.append(16))
-// myLinkedList.prepend(1)
+myLinkedList.append(5)
+myLinkedList.append(16)
+myLinkedList.prepend(1)
 console.log(myLinkedList)
 // LinkedList {
 //     head: { value: 10, next: null },
