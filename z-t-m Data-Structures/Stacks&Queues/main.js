@@ -4,8 +4,8 @@ Stacks
 //udemy.com
 //youtube
 
-//Arrays
-//Linked Lists
+Arrays
+Linked Lists
 
 //Queues
 
