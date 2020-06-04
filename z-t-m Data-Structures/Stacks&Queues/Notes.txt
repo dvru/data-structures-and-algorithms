@@ -1,0 +1,8 @@
+Stacks:
+
+Have to go through the whole stack to gather data,
+
+LIFO 
+    Last In First Out
+
+The last item is the first one that comes out
