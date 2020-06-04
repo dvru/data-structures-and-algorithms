@@ -13,9 +13,12 @@ class Node {
       this.bottom = null; // bottom plate 
       this.length = 0;
     }
-    peek() {
+    peek() {  // see top item
+        return this.top
     }
-    push(value){
+    push(value){ // add to stack
+        const neNode = new Node(value);
+        
     }
     pop(){
     }
@@ -23,6 +26,7 @@ class Node {
   }
   
   const myStack = new Stack();
+  myStack.peek()
   
   
   
