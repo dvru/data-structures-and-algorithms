@@ -1,4 +1,4 @@
-// Stack Exercise: LinkedLists
+// Stack Exercise: using LinkedLists
 
 class Node {
     constructor(value){
