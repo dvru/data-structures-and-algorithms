@@ -1,0 +1,3 @@
+Trees
+    Are a DS that have a higher article structure 
+        They can have 0 > child nodes
