@@ -13,11 +13,11 @@ class Node {
       this.root = null;
     }
     insert(value){
-      const newNode = new Node(value);
-      if (this.root === null) {
-        this.root = newNode;
+      const newNode = new Node(value); // created new node
+      if (this.root === null) {        // if the tree is empty and no root node
+        this.root = newNode;            // if so then make current root node
       } else {
-        let currentNode = this.root;
+        let currentNode = this.root;    // if the current node is the root 
         while(true){
           if(value < currentNode.value){
             //Left
