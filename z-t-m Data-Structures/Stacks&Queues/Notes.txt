@@ -12,3 +12,8 @@ Stack comes with 3 methods:
         add a plate
     Peek
         view the top most plate
+
+
+Queues:
+    accesses FIFO:
+                First In First Out
