@@ -5,4 +5,12 @@ Have to go through the whole stack to gather data,
 LIFO 
     Last In First Out
 
-The last item is the first one that comes out
+The last item is the first one that comes out.
+
+Stack comes with 3 methods:
+    Pop
+        remove last plate
+    Push
+        add a plate
+    Peek
+        view the top most plate
