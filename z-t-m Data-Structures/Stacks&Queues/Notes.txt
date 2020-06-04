@@ -13,6 +13,7 @@ Stack comes with 3 methods:
     Peek
         view the top most plate
 
+///////////////////////////////
 
 Queues:
     accesses FIFO:
@@ -20,3 +21,4 @@ Queues:
 
 enqueue (push)  add to line
 dequeue (pop)   remove first line
+Peek            first line in list
