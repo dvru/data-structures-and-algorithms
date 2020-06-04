@@ -17,3 +17,6 @@ Stack comes with 3 methods:
 Queues:
     accesses FIFO:
                 First In First Out
+
+enqueue (push)  add to line
+dequeue (pop)   remove first line
