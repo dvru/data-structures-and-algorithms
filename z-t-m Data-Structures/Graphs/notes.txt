@@ -1,0 +1,7 @@
+Cyclic  or Acyclic?
+
+Weighted or Unweighted?
+
+Directed or Undirected?
+
+https://visualgo.net/en/graphds
