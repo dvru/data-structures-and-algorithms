@@ -34,8 +34,10 @@ DIVIDE AND CONQUER USING Recursion
 
 
 /// Sorting
+-
 Bubble Sort
 Insertion Sort
 Selection Sort
+-
 Merge Sort
 Quick Sort
