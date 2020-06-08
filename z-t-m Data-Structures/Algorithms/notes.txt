@@ -20,3 +20,14 @@ Every Recursive function needs to have a base case/stop point
     usuaally 2 return for base case and Recursive case
 
 ~~~Anything you do with a Recursion CAN be done iteratively (loop)
+
+
+/////// NEW RULE!
+
+Everytime you are using a tree or converting something into a tree, 
+consider recursion:
+1. Divided into a number of subproblem that are smaller instances of the same problem.
+2. Each instance of the subproblem is identical in nature.
+3. The solutions of each subproblem can be combined to solve the problem at hand.
+
+DIVIDE AND CONQUER USING Recursion
