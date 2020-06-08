@@ -18,3 +18,5 @@ Every Recursive function needs to have a base case/stop point
 2. Identify the Recursive case
 3. Get closer and closer and return when needed.
     usuaally 2 return for base case and Recursive case
+
+~~~Anything you do with a Recursion CAN be done iteratively (loop)
