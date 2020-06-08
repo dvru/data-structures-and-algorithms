@@ -3,3 +3,4 @@ What are Algorithms?
 Types of Algorithms:
 Recursion
 Sorting
+Searching + BFS + DFS
