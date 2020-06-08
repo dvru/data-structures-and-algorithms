@@ -1,4 +1,5 @@
 What are Algorithms?
+     Steps in a process we take to perform a desired action with computers
 
 Types of Algorithms:
 Recursion
