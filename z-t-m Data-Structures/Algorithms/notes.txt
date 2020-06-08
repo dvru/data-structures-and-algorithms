@@ -1,6 +1,9 @@
 What are Algorithms?
      Steps in a process we take to perform a desired action with computers
 
+Data Structures + Algorithms = Programs
+Class {} + function() = Programs
+
 Types of Algorithms:
 Recursion
 Sorting
