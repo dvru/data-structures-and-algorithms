@@ -1,4 +1,4 @@
-What are Algorithms?
+///////What are Algorithms?
      Steps in a process we take to perform a desired action with computers
 
 Data Structures + Algorithms = Programs
@@ -11,7 +11,7 @@ Types of Algorithms:
                                 Recursion
 
 
-Recursion:
+/////Recursion:
 Every Recursive function needs to have a base case/stop point
     
 1. Identify the base case
@@ -31,3 +31,11 @@ consider recursion:
 3. The solutions of each subproblem can be combined to solve the problem at hand.
 
 DIVIDE AND CONQUER USING Recursion
+
+
+/// Sorting
+Bubble Sort
+Insertion Sort
+Selection Sort
+Merge Sort
+Quick Sort
