@@ -41,3 +41,30 @@ Selection Sort
 -
 Merge Sort
 Quick Sort
+
+
+Stable Sorting Algorithms:
+
+                Insertion Sort
+                Merge Sort
+                Bubble Sort
+                Tim Sort
+                Counting Sort
+                Block Sort
+                Quadsort
+                Library Sort
+                Cocktail shaker Sort
+                Gnome Sort
+                Odd–even Sort
+
+Unstable Sorting Algorithms:
+
+                Heap sort
+                Selection sort
+                Shell sort
+                Quick sort
+                Introsort (subject to Quicksort)
+                Tree sort
+                Cycle sort
+                Smoothsort
+                Tournament sort(subject to Hesapsort)
