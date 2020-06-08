@@ -10,6 +10,7 @@ Types of Algorithms:
                             Searching + BFS + DFS
                                 Recursion
 
+
 Recursion:
 Every Recursive function needs to have a base case/stop point
     
