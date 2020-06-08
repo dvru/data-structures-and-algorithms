@@ -1,4 +1,4 @@
-////Sorting Inteview Questions:
+////Sorting Inteview Questions: Which sort to use?
 
 //#1 - Sort 10 schools around your house by distance:
 
