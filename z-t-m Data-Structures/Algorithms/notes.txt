@@ -5,7 +5,8 @@ Data Structures + Algorithms = Programs
 Class {} + function() = Programs
 
 Types of Algorithms:
-Recursion
+
 Sorting
-Searching + BFS + DFS
-Dynamic Programming
+    Dynamic Programming
+        Searching + BFS + DFS
+            Recursion
