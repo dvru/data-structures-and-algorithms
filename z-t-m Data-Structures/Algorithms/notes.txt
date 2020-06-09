@@ -68,3 +68,12 @@ Unstable Sorting Algorithms:
                 Cycle sort
                 Smoothsort
                 Tournament sort(subject to Hesapsort)
+
+
+
+//////////// Searching/Traversal
+
+    Linear Search
+    Binary Search
+    Depth First Search
+    Breadth First Search
