@@ -1,0 +1,5 @@
+Dynamic Programming
+    It is an optimization Technique 
+
+Do you have something you can cache?
+    Use Dynamic Programming
