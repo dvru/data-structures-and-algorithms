@@ -9,3 +9,14 @@ Memorization
 
 cache   
     stores values you can use later on
+
+
+Dynamic Programming
+    Divide & Conquer + Memorization
+
+Steps to follow if you can use Dynamic Programming:
+1. Can be Divided into subproblem
+2. Recursive Solution
+3. Are there repetitive subproblems?
+4. Memorize subproblem
+5. Demand a raise from your boss ^_^
