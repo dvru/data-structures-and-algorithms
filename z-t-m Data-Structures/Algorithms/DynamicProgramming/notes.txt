@@ -3,3 +3,9 @@ Dynamic Programming
 
 Do you have something you can cache?
     Use Dynamic Programming
+
+Memorization
+    a specific form of caching 
+
+cache   
+    stores values you can use later on
