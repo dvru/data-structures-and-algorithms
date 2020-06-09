@@ -1,4 +1,11 @@
-BFS VS DFS
+BFS VS DFS:
+
+BFS
+    breadth first search/traversal
+
+DFS
+    depth first search
+
 
 DFS and BFS time complexity: O(n)
 Because this is tree traversal, we must touch every node, making this O(n) where n is the number of nodes in the tree.
