@@ -12,7 +12,15 @@ myArray.filter(i => i > 4) // (3) [5, 7, 9]
 
 reduce();
 
+
 find();
+const myArray = [1, 3, 5, 7, 9]
+myArray.find(i => i === 5) //5
+myArray.find(i => i > 4) //5
+
+const peopleArray = [{id: 1}, {id: 4},{id: 7}] //undefined
+peopleArray.find(i => i.id === 4) //{id: 4}
+
 
 includes();
 const newArray = [{id: 1}, {id: 2}, {id: 3}]
