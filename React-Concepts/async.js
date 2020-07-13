@@ -10,7 +10,8 @@ const myPromise = new Promise((resolve, reject) => {
 
 //acces it by, pass a .then a function a value which will be the result value
 myPromise
-    .then(value => console.log(value))
+    .then(value => value + '!!!!!')
+    .then(newValue => console.log(newValue))
     .catch(rejectValue => console.log(rejectValue))
 
 //true 'I have succeeded'
